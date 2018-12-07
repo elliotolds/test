@@ -40,7 +40,8 @@
     }
     
     // This costs only 47,000 gas to add to a storage array. The above struct should cost the same :(.
-    struct CheapNamed{
+    
+    struct Cheap{
         uint a;
         uint b;
         uint c;
